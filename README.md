@@ -22,13 +22,13 @@
 
 <p align="justify">
 
-Desenvolvi um servidor Redis com Golang 
+Servidor Redis
 
 </p>
 
 ## Funcionalidades
 
-:heavy_check_mark: Crud completo no banco de dados; 
+:heavy_check_mark: Servidor que armazena logs(chave-valor) de uma determinada app;
 
 ## Pré-requisitos
 
@@ -56,15 +56,9 @@ $ go run main.go
 
 ## Casos de Uso
 
-Para utilizar a mesma além de fazer as instalações necessárias conforme dito acima, se faz necessário criar e apontar as suas variáveis de ambiente privadas, para que você consiga configurar o docker-compose e subir o seu container com o respectivo banco de dados. 
+Para utilizar a mesma além de fazer as instalações necessárias conforme dito acima, se faz necessário criar um database e configurar com as suas variáveis de ambiente privadas para se conectar com bando de dados. 
 
 ## Iniciando/Configurando banco de dados
-
-# Para iniciar o banco de dados se faz necessário apontar as variaveis de ambiente, após rodar o comando:
-
-```
-$ docker-compose up
-```
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
@@ -75,7 +69,7 @@ $ docker-compose up
 
 ## Resolvendo Problemas :exclamation:
 
-Em [issues](https://github.com/Gabriel-Newton-dev/API_Rest_Golang/issues) foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos. 
+Em [issues](https://github.com/Gabriel-Newton-dev/server_redis_golang/issues) foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos. 
 
 ## Desenvolvedor:
 
